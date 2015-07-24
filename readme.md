@@ -35,9 +35,9 @@ https://github.com/rwaldron/johnny-five/blob/6753bd40b7d8aca4e665d232b7c624c1504
 
 ## Sensors
 
-https://github.com/rwaldron/johnny-five/blob/master/docs/photoresistor.md
-https://github.com/rwaldron/johnny-five/wiki/IR.Motion
-https://github.com/rwaldron/johnny-five/wiki/Ping
+*  https://github.com/rwaldron/johnny-five/blob/master/docs/photoresistor.md
+*  https://github.com/rwaldron/johnny-five/wiki/IR.Motion
+*  https://github.com/rwaldron/johnny-five/wiki/Ping
 
 ## Background
 
