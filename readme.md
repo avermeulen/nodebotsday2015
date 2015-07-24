@@ -1,4 +1,4 @@
-# International Nodebots day 2015 - Cape Town
+# International Nodebots day 2015
 
 ## Intro
 
@@ -10,12 +10,20 @@ http://node-ardx.org/
 
 ### Keypress
 
-https://github.com/TooTallNate/keypress
-https://www.npmjs.com/package/keypress
+To control the robot you use the keypress module.
+
+More details here:
+
+* https://github.com/TooTallNate/keypress
+* https://www.npmjs.com/package/keypress
 
 ### Continuous Servo
 
+To power the nodebot using a continuous servo is the easist option
+
 https://github.com/rwaldron/johnny-five/wiki/Servo
+
+Using the Servo in conjunction with the keypress module...
 
 ## Built a bot powered by an H-Bridge
 
