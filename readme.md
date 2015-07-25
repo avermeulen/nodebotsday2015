@@ -11,7 +11,9 @@ Our Nodebots journey for today looks like this
 
 ##Nodebots intro using wheels and lights
 
-To control the robot you use the keypress module.
+### Control movement
+
+To control the robot you can use the keypress module.
 
 More details here:
 
@@ -22,26 +24,19 @@ More details here:
 
 To power the nodebot using a continuous servo is the easist option. A servo is a complex component that gives your fine grained control over movement. Sending it pulses you can command how many degrees it should turn. The Johnny-5 API gives us an easy way communicate with servos.
 
-
-See this:
+More details here:
 
 https://github.com/rwaldron/johnny-five/wiki/Servo
 
-To get things moving in different direction you will need to combine the movem of your servo's
+To get things moving in different directions you will need to combine the movememt of your servo's
 
-Using the Servo in conjunction with the keypress module
+Using the Servo in conjunction with the keypress module to move around.
 
 ### Built a bot powered by a DC motor:
 
-It is easy to connect a battery to a DC motor to get it to turn in one direction. To let it turn in the other direction you just swap the wires around. But how
+It is easy to connect a battery to a DC motor to get it to turn in one direction. To let it turn in the other direction you just swap the wires around. But how to switch the wires when your robot is running around the room? H-Bridge to the rescue, a H-Bridge is an IC (Integrated Circuit) that allows one to switch the current flow. Basically switching the wires programatically.
 
-an H-Bridge
-
-See more information here : https://github.com/avermeulen/InnovationDay
-
-https://github.com/rwaldron/johnny-five/wiki/Pin
-
-https://github.com/rwaldron/johnny-five/blob/6753bd40b7d8aca4e665d232b7c624c15042cd54/docs/motor-hbridge.md
+See more information here : https://github.com/avermeulen/InnovationDay/blob/master/MotorDriver.md
 
 ##Sensor intro using light and lights
 
@@ -84,16 +79,10 @@ http://node-ardx.org/
 
 ## Built basic bot using continuous servos
 
-### Keypress
-
-
-## Sensors
-
 
 ## Background
 
 https://github.com/avermeulen/InnovationDay
-
 https://github.com/codex-academy/NodebotsOpenDay
 
 
