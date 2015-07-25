@@ -20,13 +20,22 @@ More details here:
 
 ### Continuous Servo
 
-To power the nodebot using a continuous servo is the easist option
+To power the nodebot using a continuous servo is the easist option. A servo is a complex component that gives your fine grained control over movement. Sending it pulses you can command how many degrees it should turn. The Johnny-5 API gives us an easy way communicate with servos.
+
+
+See this:
 
 https://github.com/rwaldron/johnny-five/wiki/Servo
 
-Using the Servo in conjunction with the keypress module...
+To get things moving in different direction you will need to combine the movem of your servo's
 
-### Built a bot powered by an H-Bridge
+Using the Servo in conjunction with the keypress module
+
+### Built a bot powered by a DC motor:
+
+It is easy to connect a battery to a DC motor to get it to turn in one direction. To let it turn in the other direction you just swap the wires around. But how
+
+an H-Bridge
 
 See more information here : https://github.com/avermeulen/InnovationDay
 
