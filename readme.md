@@ -11,6 +11,8 @@ Our Nodebots journey for today looks like this
 
 ##Nodebots intro using wheels and lights
 
+Start here: http://node-ardx.org
+
 ### Control movement
 
 To control the robot you can use the keypress module.
